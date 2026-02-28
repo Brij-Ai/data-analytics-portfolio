@@ -4,11 +4,11 @@ import numpy as np;
 # print(arr)
 # print(type(arr))
 
-arr = np.array([2,13,4,24,5],str)
-# print(arr.ndim)
-arr2 = np.array([[[1,24,5],
-                  [32,12,4],
-                  [4,2,4]]])
+# arr = np.array([2,13,4,24,5],str)
+# # print(arr.ndim)
+# arr2 = np.array([[[1,24,5],
+#                   [32,12,4],
+#                   [4,2,4]]])
 # print(arr2.ndim)
 # print(arr2.shape)
 # print(arr.shape)
@@ -39,9 +39,35 @@ arr2 = np.array([[[1,24,5],
 # full = np.full((3,3),"Str")
 # print(full)
 
-randMat = np.random.randint(-9,4,(3,3));
-print(randMat)
+# randMat = np.random.randint(-9,4,(3,3));
+# print(randMat)
 
-# Identity
-idn = np.identity(6)
-print(idn)
+# # Identity
+# idn = np.identity(6)
+# print(idn)
+
+# a = np.array([3,2,13,13,8])
+
+# cube = a ** 3;
+# print(cube)
+
+# sq = a ** 2
+# print(sq)
+
+# new_Sq = a[2:] ** 2;
+# print(new_Sq)
+
+# NormalArray = np.array([[23,21,3,1],[100,3,2,2]])
+# print(NormalArray)
+
+# sq = NormalArray ** 2;
+# print(sq.max())
+
+# min = sq.min();
+# print(min);
+
+# mean = sq.mean();
+# print(mean)
+
+# NormalArray.sort();
+# print(NormalArray)
